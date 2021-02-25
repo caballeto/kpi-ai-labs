@@ -52,6 +52,9 @@ public class Main {
             for (int i = 0; i < path.size(); i++) {
                 System.out.println(i + ": " + path.get(i));
             }
+            
+            System.out.println();
+            System.out.println("Final state matches END state: " + (path.get(path.size() - 1).equals(END)));
         } else {
             System.out.println("Could not find path. Consider increasing max depth.");
         }
