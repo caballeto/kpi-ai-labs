@@ -46,6 +46,12 @@ public class Main {
     }
     
     public static void main(String[] args) {
+        System.out.println("Running algorithm.");
+        System.out.println("Start state: " + START);
+        System.out.println("End state: " + END);
+        System.out.println("Max depth: " + MAX_DEPTH);
+        System.out.println();
+        
         List<SearchState> path = iterativeDeepeningSearch(START, END, MAX_DEPTH);
         if (path != null) {
             System.out.println("Successfully found path.");
