@@ -1,4 +1,4 @@
-package com.mokrousov.search;
+package com.mokrousov.search.lab1;
 
 /**
  * Можливі стани лунок

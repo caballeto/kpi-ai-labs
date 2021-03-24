@@ -1,4 +1,4 @@
-package com.mokrousov.search;
+package com.mokrousov.search.lab1;
 
 import java.util.ArrayList;
 import java.util.Collections;
